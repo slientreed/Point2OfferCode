@@ -19,5 +19,5 @@
 * [C++的cin输入用法，包括字符串输入，cin,cin.get(),cin.getline(),getline()等](https://github.com/slientreed/Point2OfferCode/blob/master/Cplusplus_Basic_Operation/2_C%2B%2B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%9A%84%E5%AD%A6%E4%B9%A0.md).  -2019.6.29
 
 2. 06题学习：    -2019.6.30
-* C++基础：[结构体 .和 ->的区别](https://blog.csdn.net/ShenYuanLuo/article/details/51146140)
+* C++基础：[结构体 .和 ->的区别](https://blog.csdn.net/ShenYuanLuo/article/details/51146140),结构的表达式用 .，结构体的指针用 ->。
 * 算法：[链表list](http://www.cplusplus.com/reference/list/list/list/)：[参考1](https://doc.bccnsoft.com/docs/cppreference/cpplist_details.html)，[参考2](https://www.cnblogs.com/scandy-yuan/archive/2013/01/08/2851324.html)
