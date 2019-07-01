@@ -12,7 +12,7 @@
 6.25  | 03 | 数组    |
 6.29 | 04~05 |数组，字符串 | [C++的几个输入用法](https://github.com/slientreed/Point2OfferCode/blob/master/Cplusplus_Basic_Operation/2_C%2B%2B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
 6.30 | 06 | [链表](https://doc.bccnsoft.com/docs/cppreference/cpplist_details.html)/栈 | [结构体中.和 ->的区别](https://blog.csdn.net/ShenYuanLuo/article/details/51146140)
-7.1 | 07 | 二叉树，[代码参考](https://github.com/gatieme/CodingInterviews/tree/master/006-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91) | 先序，中序，后序遍历
+7.1 | 07,[08](https://github.com/slientreed/Point2OfferCode/blob/master/08_Next_TreeNode.cpp) | 二叉树，[代码参考](https://github.com/gatieme/CodingInterviews/tree/master/006-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91) | 先序，中序，后序遍历
 ### 学习总结
 
 1. 04-05题：
@@ -21,3 +21,8 @@
 2. 06题学习：    -2019.6.30
 * C++基础：[结构体 .和 ->的区别](https://blog.csdn.net/ShenYuanLuo/article/details/51146140),结构的表达式用 .，结构体的指针用 ->。
 * 算法：[链表list](http://www.cplusplus.com/reference/list/list/list/)：[参考1](https://doc.bccnsoft.com/docs/cppreference/cpplist_details.html)，[参考2](https://www.cnblogs.com/scandy-yuan/archive/2013/01/08/2851324.html)
+
+3. 08题学习：   — 2019.7.1
+* 二叉树的结构，先序中序后序遍历在此复习一遍
+* 如何构建二叉树：生成二叉树节点，并按要求连接成一个二叉树。[参考了原书作者代码](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/08_NextNodeInBinaryTrees/NextNodeInBinaryTrees.cpp)
+* 加深对树，以及函数功能的测试代码编写。[具体看代码](https://github.com/slientreed/Point2OfferCode/blob/master/08_Next_TreeNode.cpp)
