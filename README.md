@@ -14,6 +14,7 @@
 6.30 | 06 | [链表](https://doc.bccnsoft.com/docs/cppreference/cpplist_details.html)/栈 | [结构体中.和 ->的区别](https://blog.csdn.net/ShenYuanLuo/article/details/51146140)
 7.1 | 07;[08](https://github.com/slientreed/Point2OfferCode/blob/master/08_Next_TreeNode.cpp);[09](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp) | 二叉树;[代码参考](https://github.com/gatieme/CodingInterviews/tree/master/006-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91); 队列，栈| 先序，中序，后序遍历;[模板类写法](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/09_QueueWithTwoStacks/Queue.h)，[cin输入](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp)
 7.2 | 10 | [递归](https://github.com/slientreed/Point2OfferCode/blob/master/10_Fiboncci_Recusive.cpp) | 
+7.3 | [11](https://github.com/slientreed/Point2OfferCode/blob/master/11_Find_Min_in_RotareArray.cpp) | 二分查找 | 
 
 ### 学习总结
 
@@ -34,5 +35,6 @@
 * 有时间实现一些用队列实现栈
 * [参考原书代码，好好写成模板类](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/09_QueueWithTwoStacks/Queue.h)
 * cin连续输入的问题，while(cin >> a)终止条件：文件终止符（ctrl+D/ctrl+Z）;非法输入（要求int，输入其他）。[cin终止参考](https://blog.csdn.net/LYJ_viviani/article/details/52229517)
-
+5. [11题学习](https://github.com/slientreed/Point2OfferCode/blob/master/11_Find_Min_in_RotareArray.cpp)   - 2019.7.3
+* 二分法比较了解，其中有当首尾和mid三者指针值相等的时候，只能用顺序查找，这点逻辑要注意
 
