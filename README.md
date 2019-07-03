@@ -14,7 +14,7 @@
 6.30 | 06 | [链表](https://doc.bccnsoft.com/docs/cppreference/cpplist_details.html)/栈 | [结构体中.和 ->的区别](https://blog.csdn.net/ShenYuanLuo/article/details/51146140)
 7.1 | 07;[08](https://github.com/slientreed/Point2OfferCode/blob/master/08_Next_TreeNode.cpp);[09](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp) | 二叉树;[代码参考](https://github.com/gatieme/CodingInterviews/tree/master/006-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91); 队列，栈| 先序，中序，后序遍历;[模板类写法](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/09_QueueWithTwoStacks/Queue.h)，[cin输入](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp)
 7.2 | 10 | [递归](https://github.com/slientreed/Point2OfferCode/blob/master/10_Fiboncci_Recusive.cpp) | 
-7.3 | 11 ,12| [二分查找(11)](https://github.com/slientreed/Point2OfferCode/blob/master/11_Find_Min_in_RotareArray.cpp);[回溯(12)](https://github.com/slientreed/Point2OfferCode/blob/master/12_String_Path_inMatrix.cpp) | ;数组，
+7.3 | 11 ,12,13,14| [二分查找(11)](https://github.com/slientreed/Point2OfferCode/blob/master/11_Find_Min_in_RotareArray.cpp);[回溯(12,13)](https://github.com/slientreed/Point2OfferCode/blob/master/12_String_Path_inMatrix.cpp) ;[动态规划(14)](https://github.com/slientreed/Point2OfferCode/blob/master/14_CuttingRope_DP.cpp)| ;数组;
 
 ### 学习总结
 
@@ -43,3 +43,8 @@
 * 回溯法：适用每步有多个选项的问题，不断递归实现，不行返回上一步继续递归下去；比如二维矩阵找路径，人在二维方格运动这种问题。
 * 今天对回溯的理解还不够， 代码基本是[参考原书代码](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/12_StringPathInMatrix/StringPathInMatrix.cpp),加深理解如何理解拆分问题，如何递归遍历每步的选项
 * 同时对C++基础比如数组，字符串的有要求，包括边界条件和遍历rows,cols的完整性，要多看这个代码.
+
+7. [14题总结](https://github.com/slientreed/Point2OfferCode/blob/master/14_CuttingRope_DP.cpp)  - 2019.7.3
+* 动态规划和贪心策略：主要要明白动态规划的适应问题范围；同时明白自上而下分析和自下而上实现
+* 对贪心算法有些不太清楚，需要看怎么用，以及贪婪策略如何选取
+* - [ ] 14题中，有时间再回过来练习一下，怎么把对应最大值的cut方法记录下来。
