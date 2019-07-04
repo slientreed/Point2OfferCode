@@ -1,12 +1,12 @@
 # Point2OfferCode
 《剑指offer》刷题代码   -2019.6.25
 
-### 说明
+### 1. 说明
 1. 个人刷剑指offer书的代码仓库，可能有错和不完善的地方，努力改进
 2. C++语言，Xcode编辑器
 3. 实现方法，测试用例可能不全面，慢慢完善
 
-### 进度 (计划三周 6.25 - 7.20)
+### 2. 进度 (计划三周 6.25 - 7.20)
 日期 | 题目 | 算法内容 | C++学习
 --- | ---  | ---    |  ----
 6.25  | 03 | 数组    |
@@ -15,8 +15,9 @@
 7.1 | 07;[08](https://github.com/slientreed/Point2OfferCode/blob/master/08_Next_TreeNode.cpp);[09](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp) | 二叉树;[代码参考](https://github.com/gatieme/CodingInterviews/tree/master/006-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91); 队列，栈| 先序，中序，后序遍历;[模板类写法](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/09_QueueWithTwoStacks/Queue.h)，[cin输入](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp)
 7.2 | 10 | [递归](https://github.com/slientreed/Point2OfferCode/blob/master/10_Fiboncci_Recusive.cpp) | 
 7.3 | 11 ,12,13,14| [二分查找(11)](https://github.com/slientreed/Point2OfferCode/blob/master/11_Find_Min_in_RotareArray.cpp);[回溯(12,13)](https://github.com/slientreed/Point2OfferCode/blob/master/12_String_Path_inMatrix.cpp) ;[动态规划(14)](https://github.com/slientreed/Point2OfferCode/blob/master/14_CuttingRope_DP.cpp)| ;数组;
+7.4 | 15 | [位运算(15)](https://github.com/slientreed/Point2OfferCode/blob/master/15_Binary_Operation.cpp) | 逻辑操作 | 
 
-### 学习总结
+### 3. 学习总结
 
 1. 04-05题：
 * [C++的cin输入用法，包括字符串输入，cin,cin.get(),cin.getline(),getline()等](https://github.com/slientreed/Point2OfferCode/blob/master/Cplusplus_Basic_Operation/2_C%2B%2B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%9A%84%E5%AD%A6%E4%B9%A0.md).  -2019.6.29
@@ -48,3 +49,9 @@
 * 动态规划和贪心策略：主要要明白动态规划的适应问题范围；同时明白自上而下分析和自下而上实现
 * 对贪心算法有些不太清楚，需要看怎么用，以及贪婪策略如何选取
 * - [ ] 14题中，有时间再回过来练习一下，怎么把对应最大值的cut方法记录下来。
+
+8. [15题总结](https://github.com/slientreed/Point2OfferCode/blob/master/15_Binary_Operation.cpp)  - 2019.7.4
+* 位运算的5种运算：&,|,^,<<,>>.(与，或，异或，左移，右移)。
+* 每个整数都是以二进制存储，需要操作二进制时，可以直接对整数进行运算，即使运算二进制。
+
+### 4. 相应计划
