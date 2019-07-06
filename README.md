@@ -17,6 +17,7 @@
 7.3 | 11 ,12,13,14| [二分查找(11)](https://github.com/slientreed/Point2OfferCode/blob/master/11_Find_Min_in_RotareArray.cpp);[回溯(12,13)](https://github.com/slientreed/Point2OfferCode/blob/master/12_String_Path_inMatrix.cpp) ;[动态规划(14)](https://github.com/slientreed/Point2OfferCode/blob/master/14_CuttingRope_DP.cpp)| ;数组;
 7.4 | 15 | [位运算(15)](https://github.com/slientreed/Point2OfferCode/blob/master/15_Binary_Operation.cpp) | 逻辑操作 | 
 7.5 | 16 | [Power()函数(16)](https://github.com/slientreed/Point2OfferCode/blob/master/16_Power.cpp) | 考虑多种情况 | 位运算
+7.6 | 17 | [Print_Max_Number(17)](https://github.com/slientreed/Point2OfferCode/blob/master/17_Print_Max_NDigits.cpp) | 字符串表示整数 | 很多细节内容
 
 ### 3. 学习总结
 
@@ -55,10 +56,17 @@
 * 位运算的5种运算：&,|,^,<<,>>.(与，或，异或，左移，右移)。
 * 每个整数都是以二进制存储，需要操作二进制时，可以直接对整数进行运算，即使运算二进制。
 * **一个很好的思路：把整数减1再和原来的整数做&运算，得到的结果相当于把整数二进制表示中最右边的一位1变成0**
+
 9. [16题总结](https://github.com/slientreed/Point2OfferCode/blob/master/16_Power.cpp)
 * 这是个看起来简单的题目，Power乘积函数，如果不看作者内容我肯定错误很多.
 * 写代码注意特殊情况区分。比如这个题目里面指数为负数时，以及出现分母做负数的情况讨论.
 * 还有个小点要注意:浮点数不能用==判断相等，要编写equal(float a, float b)函数判断.
 * 书中作者有对时间优化，很好的点：位运算和新的计算power公式，使得时间复杂度为O(logn).
+
+10. [17题](https://github.com/slientreed/Point2OfferCode/blob/master/17_Print_Max_NDigits.cpp)
+* 用字符串存储多位数字，可以表示很大数，避免溢出
+* 这一题考察了完整性，多种条件，需要对多种情况讨论
+* 多看这个代码，里面有很多小细节问题
+* 第二种方法用了递归，有些迷迷糊糊，没事多看这个代码多理解递归用法思路
 
 ### 4. 相应计划
