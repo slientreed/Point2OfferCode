@@ -70,12 +70,12 @@
 * 多看这个代码，里面有很多小细节问题
 * 第二种方法用了递归，有些迷迷糊糊，没事多看这个代码多理解递归用法思路
 
-11.[18,20题](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp)  - 2019.7.7
+11. [18,20题](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp)  - 2019.7.7
 * 18题有两个，是对链表的基本操作熟悉，没什么问题
 * 20题考察字符串和数字的表示，需要判断的情况很多，思考要清晰。
 * 20题同时有字符串输入存储问题，需要想个更好的办法。
 
-12.[21题](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)
+12. [21题](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)  - 2019.7.7
 * 奇偶重排，借鉴了两种方法，一个稳定一个不稳定，了解一下。
 * 同时用到了对向量的操作，很爽，[注意向量迭代器的使用](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)。
 
