@@ -18,7 +18,7 @@
 7.4 | 15 | [位运算(15)](https://github.com/slientreed/Point2OfferCode/blob/master/15_Binary_Operation.cpp) | 逻辑操作 | 
 7.5 | 16 | [Power()函数(16)](https://github.com/slientreed/Point2OfferCode/blob/master/16_Power.cpp) | 考虑多种情况 | 位运算
 7.6 | 17 | [Print_Max_Number(17)](https://github.com/slientreed/Point2OfferCode/blob/master/17_Print_Max_NDigits.cpp) | 字符串表示整数 | 很多细节内容
-7.7 | 18,20 | 链表操作([18_List_Operation](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp));字符串和数字([20_String_Number](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp)) | 输入，字符串操作
+7.7 | 18,20,21 | 链表操作([18_List_Operation](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp));字符串和数字([20_String_Number](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp));数组,向量,双指针([21_ReOrder_Array](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)) | 输入，字符串操作;双指针,向量
 
 ### 3. 学习总结
 
@@ -74,5 +74,9 @@
 * 18题有两个，是对链表的基本操作熟悉，没什么问题
 * 20题考察字符串和数字的表示，需要判断的情况很多，思考要清晰。
 * 20题同时有字符串输入存储问题，需要想个更好的办法。
+
+12.[21题](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)
+* 奇偶重排，借鉴了两种方法，一个稳定一个不稳定，了解一下。
+* 同时用到了对向量的操作，很爽，[注意向量迭代器的使用](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)。
 
 ### 4. 相应计划
