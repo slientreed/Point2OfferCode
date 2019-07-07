@@ -18,6 +18,7 @@
 7.4 | 15 | [位运算(15)](https://github.com/slientreed/Point2OfferCode/blob/master/15_Binary_Operation.cpp) | 逻辑操作 | 
 7.5 | 16 | [Power()函数(16)](https://github.com/slientreed/Point2OfferCode/blob/master/16_Power.cpp) | 考虑多种情况 | 位运算
 7.6 | 17 | [Print_Max_Number(17)](https://github.com/slientreed/Point2OfferCode/blob/master/17_Print_Max_NDigits.cpp) | 字符串表示整数 | 很多细节内容
+7.7 | 18,20 | 链表操作([18_List_Operation](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp));字符串和数字([20_String_Number](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp)) | 输入，字符串操作
 
 ### 3. 学习总结
 
@@ -68,5 +69,10 @@
 * 这一题考察了完整性，多种条件，需要对多种情况讨论
 * 多看这个代码，里面有很多小细节问题
 * 第二种方法用了递归，有些迷迷糊糊，没事多看这个代码多理解递归用法思路
+
+11.[18,20题](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp)  - 2019.7.7
+* 18题有两个，是对链表的基本操作熟悉，没什么问题
+* 20题考察字符串和数字的表示，需要判断的情况很多，思考要清晰。
+* 20题同时有字符串输入存储问题，需要想个更好的办法。
 
 ### 4. 相应计划
