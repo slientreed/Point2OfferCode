@@ -21,10 +21,14 @@
 7.5 | 16 | [Power()函数(16)](https://github.com/slientreed/Point2OfferCode/blob/master/16_Power.cpp) | 考虑多种情况 | 位运算
 7.6 | 17 | [Print_Max_Number(17)](https://github.com/slientreed/Point2OfferCode/blob/master/17_Print_Max_NDigits.cpp) | 字符串表示整数 | 很多细节内容
 7.7 | 18,20,21 | 链表操作([18_List_Operation](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp));字符串和数字([20_String_Number](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp));数组,向量,双指针([21_ReOrder_Array](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)) | 输入，字符串操作;双指针,向量
-7.8 | 22,23,24,25,26 | 连续的链表操作练习：[22_Find_Kth_Node_From_End](https://github.com/slientreed/Point2OfferCode/blob/master/22_Find_Kth_Node_From_End.cpp),[23_EntryNode_List](https://github.com/slientreed/Point2OfferCode/blob/master/23_EntryNode_List.cpp),[24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp),[25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp). 树的递归操作[26_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp) | 链表的构建，结构体，指针问题
+7.8 | 22,23,24,25,26 | 连续的链表操作练习：[22_Find_Kth_Node_From_End](https://github.com/slientreed/Point2OfferCode/blob/master/22_Find_Kth_Node_From_End.cpp),[23_EntryNode_List](https://github.com/slientreed/Point2OfferCode/blob/master/23_EntryNode_List.cpp),[24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp),[25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp). 树的递归操作：[26_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp) | 链表的构建，结构体，指针问题
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
-
+----------------------------
+#### --- 第2章-基础数据结构终结
+* 数组，字符串，链表，树，栈与队列，递归/循环，查找排序，回溯，动态规划/贪心，位运算
+* 对这些基础数据结构和算法要了熟于心，清清楚楚
+----------------------------
 1. 04-05题：
 * [C++的cin输入用法，包括字符串输入，cin,cin.get(),cin.getline(),getline()等](https://github.com/slientreed/Point2OfferCode/blob/master/Cplusplus_Basic_Operation/2_C%2B%2B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%9A%84%E5%AD%A6%E4%B9%A0.md).  -2019.6.29
 
@@ -61,6 +65,12 @@
 * 每个整数都是以二进制存储，需要操作二进制时，可以直接对整数进行运算，即使运算二进制。
 * **一个很好的思路：把整数减1再和原来的整数做&运算，得到的结果相当于把整数二进制表示中最右边的一位1变成0**
 
+-------------------------
+#### --- 第3章 高质量代码终结
+* 规范性：书写，布局，命名
+* 完整性：实现基本功能 -> 考虑边界条件 -> 错误输入处理
+* 鲁棒性：防御性编程（考虑可能错误的情况）， 问题全面性， 无效输入/数据的处理
+--------------------------
 9. [16题总结](https://github.com/slientreed/Point2OfferCode/blob/master/16_Power.cpp)  - 2019.7.5
 * 这是个看起来简单的题目，Power乘积函数，如果不看作者内容我肯定错误很多.
 * 写代码注意特殊情况区分。比如这个题目里面指数为负数时，以及出现分母做负数的情况讨论.
@@ -94,5 +104,10 @@
 14.[24_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp)  - 2019.7.8
 * 树的问题，这题参考写了树节点的操作
 * 树的问题除了遍历这种，一般就用递归解决。
+
+---------------------
+--- #### 第4章 解决问题思路
+---------------------
+
 
 ### 4. 相应计划
