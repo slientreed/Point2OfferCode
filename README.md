@@ -9,18 +9,21 @@
 ### 2. 进度 (计划三周 6.25 - 7.20)
 日期 | 题目 | 算法内容 | C++学习
 --- | ---  | ---    |  ----
+--- | --- | 第2章. 基础数据结构 | --- 
 6.25  | 03 | 数组    |
 6.29 | 04;05 |数组;字符串 | [C++的几个输入用法](https://github.com/slientreed/Point2OfferCode/blob/master/Cplusplus_Basic_Operation/2_C%2B%2B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
 6.30 | 06 | [链表](https://doc.bccnsoft.com/docs/cppreference/cpplist_details.html)/栈 | [结构体中.和 ->的区别](https://blog.csdn.net/ShenYuanLuo/article/details/51146140)
-7.1 | 07;[08](https://github.com/slientreed/Point2OfferCode/blob/master/08_Next_TreeNode.cpp);[09](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp) | 二叉树;[代码参考](https://github.com/gatieme/CodingInterviews/tree/master/006-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91); 队列，栈| 先序，中序，后序遍历;[模板类写法](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/09_QueueWithTwoStacks/Queue.h)，[cin输入](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp)
+7.1 | [07](https://github.com/slientreed/Point2OfferCode/blob/master/07_Construct_Tre.cpp);[08](https://github.com/slientreed/Point2OfferCode/blob/master/08_Next_TreeNode.cpp);[09](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp) | 二叉树;[代码参考](https://github.com/gatieme/CodingInterviews/tree/master/006-%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91); 队列，栈| 先序，中序，后序遍历;[模板类写法](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/09_QueueWithTwoStacks/Queue.h)，[cin输入](https://github.com/slientreed/Point2OfferCode/blob/master/09_stack_to_queue.cpp)
 7.2 | 10 | [递归](https://github.com/slientreed/Point2OfferCode/blob/master/10_Fiboncci_Recusive.cpp) | 
 7.3 | 11 ,12,13,14| [二分查找(11)](https://github.com/slientreed/Point2OfferCode/blob/master/11_Find_Min_in_RotareArray.cpp);[回溯(12,13)](https://github.com/slientreed/Point2OfferCode/blob/master/12_String_Path_inMatrix.cpp) ;[动态规划(14)](https://github.com/slientreed/Point2OfferCode/blob/master/14_CuttingRope_DP.cpp)| ;数组;
 7.4 | 15 | [位运算(15)](https://github.com/slientreed/Point2OfferCode/blob/master/15_Binary_Operation.cpp) | 逻辑操作 | 
+---| --- | 第3章. 高质量代码（全面考虑情况） | --- |
 7.5 | 16 | [Power()函数(16)](https://github.com/slientreed/Point2OfferCode/blob/master/16_Power.cpp) | 考虑多种情况 | 位运算
 7.6 | 17 | [Print_Max_Number(17)](https://github.com/slientreed/Point2OfferCode/blob/master/17_Print_Max_NDigits.cpp) | 字符串表示整数 | 很多细节内容
 7.7 | 18,20,21 | 链表操作([18_List_Operation](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp));字符串和数字([20_String_Number](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp));数组,向量,双指针([21_ReOrder_Array](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)) | 输入，字符串操作;双指针,向量
+7.8 | 22,23,24,25 | 连续的链表操作练习：[22_Find_Kth_Node_From_End](https://github.com/slientreed/Point2OfferCode/blob/master/22_Find_Kth_Node_From_End.cpp),[23_EntryNode_List](https://github.com/slientreed/Point2OfferCode/blob/master/23_EntryNode_List.cpp),[24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp),[25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp). | 链表的构建，结构体，指针问题
 
-### 3. 学习总结
+### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 
 1. 04-05题：
 * [C++的cin输入用法，包括字符串输入，cin,cin.get(),cin.getline(),getline()等](https://github.com/slientreed/Point2OfferCode/blob/master/Cplusplus_Basic_Operation/2_C%2B%2B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%9A%84%E5%AD%A6%E4%B9%A0.md).  -2019.6.29
@@ -78,5 +81,14 @@
 12. [21题](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)  - 2019.7.7
 * 奇偶重排，借鉴了两种方法，一个稳定一个不稳定，了解一下。
 * 同时用到了对向量的操作，很爽，[注意向量迭代器的使用](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)。
+
+13. 链表问题大集合
+* 1.这几个问题集中对链表进行操作，对链表差不多清楚了，包括结构，创建，遍历。最重要理清楚链表中指针的关系，操作过程不要断链。
+* 2.这几个链表操作有些方法：双指针，递归
+* 3.同时这里考察的是高质量代码，就是考察全面，情况考虑清晰，不同的输入，边界条件。链表最多的就是空指针和不要断链。
+* [22_Find_Kth_Node_From_End](https://github.com/slientreed/Point2OfferCode/blob/master/22_Find_Kth_Node_From_End.cpp)：双指针的使用;不同情况的考虑：空指针，不同的k值。
+* [23_EntryNode_List](https://github.com/slientreed/Point2OfferCode/blob/master/23_EntryNode_List.cpp)：双指针使用;函数功能分块
+* [24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp)：全面性考虑(头指针是nullptr,链表只有一个节点)；注意过程不要断链
+* [25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp)：注意指针不要断链；特殊输入(空指针问题);递归方法解决
 
 ### 4. 相应计划
