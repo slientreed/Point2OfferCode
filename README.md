@@ -22,6 +22,7 @@
 7.6 | 17 | [Print_Max_Number(17)](https://github.com/slientreed/Point2OfferCode/blob/master/17_Print_Max_NDigits.cpp) | 字符串表示整数 | 很多细节内容
 7.7 | 18,20,21 | 链表操作([18_List_Operation](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp));字符串和数字([20_String_Number](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp));数组,向量,双指针([21_ReOrder_Array](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)) | 输入，字符串操作;双指针,向量
 7.8 | 22,23,24,25,26 | 连续的链表操作练习：[22_Find_Kth_Node_From_End](https://github.com/slientreed/Point2OfferCode/blob/master/22_Find_Kth_Node_From_End.cpp),[23_EntryNode_List](https://github.com/slientreed/Point2OfferCode/blob/master/23_EntryNode_List.cpp),[24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp),[25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp). 树的递归操作：[26_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp) | 链表的构建，结构体，指针问题
+7.9 | 27,28 | 树的操作问题：[27_镜像树](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp),[28_对称树](https://github.com/slientreed/Point2OfferCode/blob/master/28_Symmetric_Tree.cpp) 树的遍历;递归和循环| 指针 
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
@@ -108,6 +109,9 @@
 ---------------------
 #### --- 第4章 解决问题思路
 ---------------------
-
+15.[27,28_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp)  - 2019.7.9
+* 两个数的问题，镜像和对称，和树的遍历很相关，要对前序中序后序遍历烂熟于心。
+* 同时都有递归和非递归的解法，树的问题一般都用递归，非递归要多画图分析，主要是节点的关系，多借助栈。
+* 多看这两个，对递归和非递归解法清楚，更要清楚树遍历的非递归方法
 
 ### 4. 相应计划
