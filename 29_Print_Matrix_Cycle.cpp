@@ -12,15 +12,6 @@
  */
 
 
-/*
- 问题：
- 1. c++二维向量输入问题，如何传入指针迷迷糊糊的；
- 2. 二维向量的操作不太清晰明白
- 
- */
-
-
-
 #include <iostream>
 #include <vector>
 #include <stack>
