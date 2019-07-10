@@ -23,7 +23,7 @@
 7.7 | 18,20,21 | 链表操作([18_List_Operation](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp));字符串和数字([20_String_Number](https://github.com/slientreed/Point2OfferCode/blob/master/20_String_Number.cpp));数组,向量,双指针([21_ReOrder_Array](https://github.com/slientreed/Point2OfferCode/blob/master/21_ReOrder_Array.cpp)) | 输入，字符串操作;双指针,向量
 7.8 | 22,23,24,25,26 | 连续的链表操作练习：[22_Find_Kth_Node_From_End](https://github.com/slientreed/Point2OfferCode/blob/master/22_Find_Kth_Node_From_End.cpp),[23_EntryNode_List](https://github.com/slientreed/Point2OfferCode/blob/master/23_EntryNode_List.cpp),[24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp),[25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp). 树的递归操作：[26_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp) | 链表的构建，结构体，指针问题
 7.9 | 27,28 | 树的操作问题：[27_镜像树](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp),[28_对称树](https://github.com/slientreed/Point2OfferCode/blob/master/28_Symmetric_Tree.cpp) 树的遍历;递归和循环| 指针 
-7.19 | 29 | [顺时针打印数组](https://github.com/slientreed/Point2OfferCode/blob/master/29_Print_Matrix_Cycle.cpp) | 二维数组传参；画图理清思路
+7.10 | 29 | [顺时针打印数组](https://github.com/slientreed/Point2OfferCode/blob/master/29_Print_Matrix_Cycle.cpp) | 二维数组传参；画图理清思路
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
