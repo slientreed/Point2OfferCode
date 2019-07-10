@@ -102,16 +102,21 @@
 * [24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp)：全面性考虑(头指针是nullptr,链表只有一个节点)；注意过程不要断链
 * [25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp)：注意指针不要断链；特殊输入(空指针问题);递归方法解决.
 
-14.[24_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp)  - 2019.7.8
+14. [24_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp)  - 2019.7.8
 * 树的问题，这题参考写了树节点的操作
 * 树的问题除了遍历这种，一般就用递归解决。
 
 ---------------------
 #### --- 第4章 解决问题思路
 ---------------------
-15.[27,28_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp)  - 2019.7.9
+15. [27,28_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp)  - 2019.7.9
 * 两个数的问题，镜像和对称，和树的遍历很相关，要对前序中序后序遍历烂熟于心。
 * 同时都有递归和非递归的解法，树的问题一般都用递归，非递归要多画图分析，主要是节点的关系，多借助栈。
 * 多看这两个，对递归和非递归解法清楚，更要清楚树遍历的非递归方法
+
+16. [29_Print_Matrix_Cycle.cpp](https://github.com/slientreed/Point2OfferCode/blob/master/29_Print_Matrix_Cycle.cpp)  - 2019.7.10
+* 之前写过，每次都是很迷糊，说明对边界对判断都很迷糊，[这次完全是参考作者的](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/29_PrintMatrix/PrintMatrix.cpp).
+* c++二维数组输入问题，如何把二维数组作为参数，无非是指针和new空间的问题.(想一下这个题怎么改成vector,然后笔试的时候怎么进行输入)
+* 二维向量的操作不太清晰明白，一写这样比较烦的题思路还是不够清晰
 
 ### 4. 相应计划
