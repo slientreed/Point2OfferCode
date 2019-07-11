@@ -24,6 +24,11 @@
 7.8 | 22,23,24,25,26 | 连续的链表操作练习：[22_Find_Kth_Node_From_End](https://github.com/slientreed/Point2OfferCode/blob/master/22_Find_Kth_Node_From_End.cpp),[23_EntryNode_List](https://github.com/slientreed/Point2OfferCode/blob/master/23_EntryNode_List.cpp),[24_Reverse_List](https://github.com/slientreed/Point2OfferCode/blob/master/24_Reverse_List.cpp),[25_MergeList](https://github.com/slientreed/Point2OfferCode/blob/master/25_MergeList.cpp). 树的递归操作：[26_SubTree](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp) | 链表的构建，结构体，指针问题
 7.9 | 27,28 | 树的操作问题：[27_镜像树](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp),[28_对称树](https://github.com/slientreed/Point2OfferCode/blob/master/28_Symmetric_Tree.cpp) 树的遍历;递归和循环| 指针 
 7.10 | 29 | [顺时针打印数组](https://github.com/slientreed/Point2OfferCode/blob/master/29_Print_Matrix_Cycle.cpp) | 二维数组传参；画图理清思路
+7.11 | 30,31 | 栈的出栈入栈操作问题：[30_栈中最小元素](https://github.com/slientreed/Point2OfferCode/blob/master/30_Min_Stack.cpp),[31_栈的压入弹出顺序](https://github.com/slientreed/Point2OfferCode/blob/master/31_Stack_Push_Pop_Order.cpp) | 类，模板，向量和数组，指针传递，const
+
+
+
+
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
@@ -119,5 +124,11 @@
 * 之前写过，每次都是很迷糊，说明对边界对判断都很迷糊，[这次完全是参考作者的](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/29_PrintMatrix/PrintMatrix.cpp).
 * c++二维数组输入问题，如何把二维数组作为参数，无非是指针和new空间的问题.(想一下这个题怎么改成vector,然后笔试的时候怎么进行输入)
 * 二维向量的操作不太清晰明白，一写这样比较烦的题思路还是不够清晰
+
+17. [30_栈中最小元素](https://github.com/slientreed/Point2OfferCode/blob/master/30_Min_Stack.cpp),[31_栈的压入弹出顺序](https://github.com/slientreed/Point2OfferCode/blob/master/31_Stack_Push_Pop_Order.cpp)
+* 两个题都是对栈操作的使用，入栈出栈顺序，操作要烂熟，31题那个逻辑对比要清楚，拿过来问题要会模拟。
+* 30题中的类要写成模板类啊，还有const参数要继续弄明白啊
+* 31题中明确向量和数组的区别，后序再刷改成传入指针；
+* 31题并不是特别清晰，手到擒来，如果自己写的话可能又会对一些细节犹豫，多看多理解。[写题时的参考](https://github.com/gatieme/CodingInterviews/tree/master/022-%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97)
 
 ### 4. 相应计划
