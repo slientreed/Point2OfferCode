@@ -25,6 +25,7 @@
 7.9 | 27,28 | 树的操作问题：[27_镜像树](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp),[28_对称树](https://github.com/slientreed/Point2OfferCode/blob/master/28_Symmetric_Tree.cpp) 树的遍历;递归和循环| 指针 
 7.10 | 29 | [顺时针打印数组](https://github.com/slientreed/Point2OfferCode/blob/master/29_Print_Matrix_Cycle.cpp) | 二维数组传参；画图理清思路
 7.11 | 30,31 | 栈的出栈入栈操作问题：[30_栈中最小元素](https://github.com/slientreed/Point2OfferCode/blob/master/30_Min_Stack.cpp),[31_栈的压入弹出顺序](https://github.com/slientreed/Point2OfferCode/blob/master/31_Stack_Push_Pop_Order.cpp) | 类，模板，向量和数组，指针传递，const
+7.12 | 32,33 | 树的遍历，结合栈/队列：[32_层序遍历](https://github.com/slientreed/Point2OfferCode/blob/master/32_1_Print_BinaryTree_Level_Order.cpp),[33_二叉排序树的后序遍历](https://github.com/slientreed/Point2OfferCode/blob/master/33_Squence_of_BST.cpp) | 向量，递归
 
 
 
@@ -136,7 +137,7 @@
 * 第三个子问题中，奇偶压栈和出栈的顺序要清楚，想明白这个逻辑很重要。
 * DFS遍历问题，不论是树还是图，基本都可借助栈实现。
 
-19. [33_二叉搜索树的后序遍历序列])(https://github.com/slientreed/Point2OfferCode/blob/master/33_Squence_of_BST.cpp)    - 2019.7.12
+19. [33_二叉搜索树的后序遍历序列](https://github.com/slientreed/Point2OfferCode/blob/master/33_Squence_of_BST.cpp)    - 2019.7.12
 * 首先拿到这个题就迷糊害怕，难道要把所有后序子序列都弄出来对比，肯定不是这样
 * 解法是先根据二叉搜索树后序特点（最后一个为root），找到根节点；然后划分为左右子树（比root小的为左，大的右）；最后对左右子树递归
 * 同时注意，用了数组和向量两种，[借鉴了网上的写法](https://github.com/gatieme/CodingInterviews/tree/master/024-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97)
