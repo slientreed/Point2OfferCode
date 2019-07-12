@@ -131,4 +131,15 @@
 * 31题中明确向量和数组的区别，后序再刷改成传入指针；
 * 31题并不是特别清晰，手到擒来，如果自己写的话可能又会对一些细节犹豫，多看多理解。[写题时的参考](https://github.com/gatieme/CodingInterviews/tree/master/022-%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97)
 
+18. [32_从上到下打印二叉树](https://github.com/slientreed/Point2OfferCode/blob/master/32_1_Print_BinaryTree_Level_Order.cpp) - 2019.7.12
+* 连续三个问题关于树的层序遍历，借助栈/队列实现遍历。着重在和栈/队列的结合
+* 第三个子问题中，奇偶压栈和出栈的顺序要清楚，想明白这个逻辑很重要。
+* DFS遍历问题，不论是树还是图，基本都可借助栈实现。
+
+19. [33_二叉搜索树的后序遍历序列])(https://github.com/slientreed/Point2OfferCode/blob/master/33_Squence_of_BST.cpp)    - 2019.7.12
+* 首先拿到这个题就迷糊害怕，难道要把所有后序子序列都弄出来对比，肯定不是这样
+* 解法是先根据二叉搜索树后序特点（最后一个为root），找到根节点；然后划分为左右子树（比root小的为左，大的右）；最后对左右子树递归
+* 同时注意，用了数组和向量两种，[借鉴了网上的写法](https://github.com/gatieme/CodingInterviews/tree/master/024-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97)
+* 最后，对所有的二叉树遍历序列问题，都采用这种方法：先根据特点找到根节点，然后划分左右子树，对左右子树递归操作。
+
 ### 4. 相应计划
