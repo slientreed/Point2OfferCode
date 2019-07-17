@@ -26,7 +26,8 @@
 7.10 | 29 | [顺时针打印数组](https://github.com/slientreed/Point2OfferCode/blob/master/29_Print_Matrix_Cycle.cpp) | 二维数组传参；画图理清思路
 7.11 | 30,31 | 栈的出栈入栈操作问题：[30_栈中最小元素](https://github.com/slientreed/Point2OfferCode/blob/master/30_Min_Stack.cpp),[31_栈的压入弹出顺序](https://github.com/slientreed/Point2OfferCode/blob/master/31_Stack_Push_Pop_Order.cpp) | 类，模板，向量和数组，指针传递，const
 7.12 | 32,33 | 树的遍历，结合栈/队列：[32_层序遍历](https://github.com/slientreed/Point2OfferCode/blob/master/32_1_Print_BinaryTree_Level_Order.cpp),[33_二叉排序树的后序遍历](https://github.com/slientreed/Point2OfferCode/blob/master/33_Squence_of_BST.cpp) | 向量，递归
-
+7.13 | 34 | 树的遍历，[34_Path_in_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/34_Path_in_Tree.cpp) | 树遍历，递归
+7.17 | 35 | 链表：[35_Complex_List](https://github.com/slientreed/Point2OfferCode/blob/master/35_Complex_List.cpp) | map和哈希map的使用;
 
 
 
@@ -142,5 +143,9 @@
 * 解法是先根据二叉搜索树后序特点（最后一个为root），找到根节点；然后划分为左右子树（比root小的为左，大的右）；最后对左右子树递归
 * 同时注意，用了数组和向量两种，[借鉴了网上的写法](https://github.com/gatieme/CodingInterviews/tree/master/024-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97)
 * 最后，对所有的二叉树遍历序列问题，都采用这种方法：先根据特点找到根节点，然后划分左右子树，对左右子树递归操作。
+
+20. [复制复杂链表](https://github.com/slientreed/Point2OfferCode/blob/master/35_Complex_List.cpp)   - 2019.7.17
+* 书中提到了几个方法，注意看map和hash map的用法
+* 对链表的理解，指针问题要加深，如何用分治方法解决问题，如何拆分函数。
 
 ### 4. 相应计划
