@@ -28,7 +28,7 @@
 7.12 | 32,33 | 树的遍历，结合栈/队列：[32_层序遍历](https://github.com/slientreed/Point2OfferCode/blob/master/32_1_Print_BinaryTree_Level_Order.cpp),[33_二叉排序树的后序遍历](https://github.com/slientreed/Point2OfferCode/blob/master/33_Squence_of_BST.cpp) | 向量，递归
 7.13 | 34 | 树的遍历，[34_Path_in_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/34_Path_in_Tree.cpp) | 树遍历，递归
 7.17 | 35，36 | 链表：[35_Complex_List](https://github.com/slientreed/Point2OfferCode/blob/master/35_Complex_List.cpp)；[36_Tree_Convert_List](https://github.com/slientreed/Point2OfferCode/blob/master/36_Tree_Convert_List.cpp) | map和哈希map的使用;
-
+7.18 | 37 | 树：[37_序列化](https://github.com/slientreed/Point2OfferCode/blob/master/37_Serialize_Tree.cpp) | 输入输出流，对文件操作;
 
 
 
@@ -150,4 +150,10 @@
 
 21. [二叉搜索树变成双向链表](https://github.com/slientreed/Point2OfferCode/blob/master/36_Tree_Convert_List.cpp),这个没看透，要重点二刷。[参考](https://github.com/gatieme/CodingInterviews/tree/master/027-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%8E%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8)
 
+22. [37—树的序列化和反序列化](https://github.com/slientreed/Point2OfferCode/blob/master/37_Serialize_Tree.cpp).
+* 这个题就是遍历问题以及字符串和整数的转换。
+* ***但是其中对文件的操作，输入输出流的使用要注意***，下去要再查，总结使用，现在还不能灵活应用。
+
+
 ### 4. 相应计划
+1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
