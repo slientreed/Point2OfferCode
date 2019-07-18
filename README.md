@@ -116,6 +116,9 @@
 
 ---------------------
 #### --- 第4章 解决问题思路
+* 画图 ：二叉树，二维数组，链表
+* 举例
+* 分解：分治-递归，动态规划
 ---------------------
 15. [27,28_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/27_MirrorTree.cpp)  - 2019.7.9
 * 两个数的问题，镜像和对称，和树的遍历很相关，要对前序中序后序遍历烂熟于心。
@@ -159,6 +162,11 @@
 * C++语法对string，vector的复习
 * ***这个要继续看，对递归考察的典型题目***。同时对所有的排列问题都适用，比如八皇后问题，抽空来解决这写
 * [原书代码参考](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/38_StringPermutation/StringPermutation.cpp),[其他参考](https://github.com/gatieme/CodingInterviews/tree/master/028-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97)
+
+---------------------
+#### --- 第5章 优化时间和空间效率
+---------------------
+24. []().
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
