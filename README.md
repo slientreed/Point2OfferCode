@@ -29,7 +29,7 @@
 7.13 | 34 | 树的遍历，[34_Path_in_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/34_Path_in_Tree.cpp) | 树遍历，递归
 7.17 | 35，36 | 链表：[35_Complex_List](https://github.com/slientreed/Point2OfferCode/blob/master/35_Complex_List.cpp)；[36_Tree_Convert_List](https://github.com/slientreed/Point2OfferCode/blob/master/36_Tree_Convert_List.cpp) | map和哈希map的使用;
 7.18 | 37，38 | 树：[37_序列化](https://github.com/slientreed/Point2OfferCode/blob/master/37_Serialize_Tree.cpp)，[38_字符串，递归](https://github.com/slientreed/Point2OfferCode/blob/master/38_string_Permutation.cpp) | 输入输出流，对文件操作; 字符串，递归，向量
-
+7.19 | 39. | [39_出现超过一半的数](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp) | Partition函数，思路问题，向量/数组，map的使用；
 
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
@@ -166,7 +166,12 @@
 ---------------------
 #### --- 第5章 优化时间和空间效率
 ---------------------
-24. []().
+24. [39_找数组出现次数超过一半的数字](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp).
+* 使用了Partiton划分函数，可以直接找到第k个位置的元素。
+* 结合特性，超过一半比其他都多，有了方法二
+* 同时使用了map库函数，遍历一遍，记录每个元素出现的次数，最后查找出现最多的即可。
+
+
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
