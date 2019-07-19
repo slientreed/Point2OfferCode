@@ -29,7 +29,7 @@
 7.13 | 34 | 树的遍历，[34_Path_in_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/34_Path_in_Tree.cpp) | 树遍历，递归
 7.17 | 35，36 | 链表：[35_Complex_List](https://github.com/slientreed/Point2OfferCode/blob/master/35_Complex_List.cpp)；[36_Tree_Convert_List](https://github.com/slientreed/Point2OfferCode/blob/master/36_Tree_Convert_List.cpp) | map和哈希map的使用;
 7.18 | 37，38 | 树：[37_序列化](https://github.com/slientreed/Point2OfferCode/blob/master/37_Serialize_Tree.cpp)，[38_字符串，递归](https://github.com/slientreed/Point2OfferCode/blob/master/38_string_Permutation.cpp) | 输入输出流，对文件操作; 字符串，递归，向量
-7.19 | 39. | [39_出现超过一半的数](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp) | Partition函数，思路问题，向量/数组，map的使用；
+7.19 | 39,40 | [39_出现超过一半的数](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp),[40_最小的k个数](https://github.com/slientreed/Point2OfferCode/blob/master/40_Min_K_Numbers.cpp) | Partition函数，思路问题，向量/数组，map的使用；容器set,迭代器，最大堆，红黑树结构
 
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
@@ -165,12 +165,17 @@
 
 ---------------------
 #### --- 第5章 优化时间和空间效率
----------------------
-24. [39_找数组出现次数超过一半的数字](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp).
+--------------------- 
+24. [39_找数组出现次数超过一半的数字](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp).   -7.19
 * 使用了Partiton划分函数，可以直接找到第k个位置的元素。
 * 结合特性，超过一半比其他都多，有了方法二
 * 同时使用了map库函数，遍历一遍，记录每个元素出现的次数，最后查找出现最多的即可。
 
+25. [40_最小的k个数](https://github.com/slientreed/Point2OfferCode/blob/master/40_Min_K_Numbers.cpp)  - 7.19
+* 很经典的题目了，多个解法
+* 首先是Partition的方法，找到第k个索引，前面就是都小于第k个值的数了；time:O(n)，但是会改变原数组
+* 再就是牺牲空间复杂度，使用容器存放前k小数，不断遍历；容器选取不同也不同，如果选取数组，每次找最大值和遍历的元素比较，找最大值复杂度为O(k)，如果选取set，使用红黑树/最大堆，则每次找最大元素复杂度为O(logk)。
+* 这里有用set的STL数据结构，可以看一看，包括迭代器。
 
 
 ### 4. 相应计划
