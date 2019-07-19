@@ -29,7 +29,7 @@
 7.13 | 34 | 树的遍历，[34_Path_in_Tree](https://github.com/slientreed/Point2OfferCode/blob/master/34_Path_in_Tree.cpp) | 树遍历，递归
 7.17 | 35，36 | 链表：[35_Complex_List](https://github.com/slientreed/Point2OfferCode/blob/master/35_Complex_List.cpp)；[36_Tree_Convert_List](https://github.com/slientreed/Point2OfferCode/blob/master/36_Tree_Convert_List.cpp) | map和哈希map的使用;
 7.18 | 37，38 | 树：[37_序列化](https://github.com/slientreed/Point2OfferCode/blob/master/37_Serialize_Tree.cpp)，[38_字符串，递归](https://github.com/slientreed/Point2OfferCode/blob/master/38_string_Permutation.cpp) | 输入输出流，对文件操作; 字符串，递归，向量
-7.19 | 39,40 | [39_出现超过一半的数](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp),[40_最小的k个数](https://github.com/slientreed/Point2OfferCode/blob/master/40_Min_K_Numbers.cpp) | Partition函数，思路问题，向量/数组，map的使用；容器set,迭代器，最大堆，红黑树结构
+7.19 | 39,40,42,43(未全实现) | [39_出现超过一半的数](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp),[40_最小的k个数](https://github.com/slientreed/Point2OfferCode/blob/master/40_Min_K_Numbers.cpp),[43_最大连续子数组和](https://github.com/slientreed/Point2OfferCode/blob/master/42_Greatest_Sum_SubArray.cpp),[43_1的个数](https://github.com/slientreed/Point2OfferCode/blob/master/43_Numbers_Of_1.cpp) | Partition函数，思路问题，向量/数组，map的使用；容器set,迭代器，最大堆，红黑树结构；递归，贪心；观察数字规律
 
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
@@ -177,6 +177,9 @@
 * 再就是牺牲空间复杂度，使用容器存放前k小数，不断遍历；容器选取不同也不同，如果选取数组，每次找最大值和遍历的元素比较，找最大值复杂度为O(k)，如果选取set，使用红黑树/最大堆，则每次找最大元素复杂度为O(logk)。
 * 这里有用set的STL数据结构，可以看一看，包括迭代器。
 
+26. [43题_找数字中1的个数](https://github.com/slientreed/Point2OfferCode/blob/master/43_Numbers_Of_1.cpp)  - 7.19
+* 只写了一个最简单的方法，书中给出的参考没写，观察数字的规律，今天不想看
+* [参考书中规律](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/43_NumberOf1/NumberOf1.cpp)
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
