@@ -32,7 +32,7 @@
 7.19 | 39,40,42,43(未全实现) | [39_出现超过一半的数](https://github.com/slientreed/Point2OfferCode/blob/master/39_More_Than_HalfNumber.cpp),[40_最小的k个数](https://github.com/slientreed/Point2OfferCode/blob/master/40_Min_K_Numbers.cpp),[43_最大连续子数组和](https://github.com/slientreed/Point2OfferCode/blob/master/42_Greatest_Sum_SubArray.cpp),[43_1的个数](https://github.com/slientreed/Point2OfferCode/blob/master/43_Numbers_Of_1.cpp) | Partition函数，思路问题，向量/数组，map的使用；容器set,迭代器，最大堆，红黑树结构；递归，贪心；观察数字规律
 7.21 | 44,45,46 | [数字序列的某一位](https://github.com/slientreed/Point2OfferCode/blob/master/44_Digits_In_Sequence.cpp),[45_数组最小数](https://github.com/slientreed/Point2OfferCode/blob/master/45_Sort_Array_MinNumber.cpp),[46_数组to字符串](https://github.com/slientreed/Point2OfferCode/blob/master/46_Number_to_String.cpp) | 循环；排序，比较规则；字符串，递归/循环，动态规划
 7.22 | 47 | [47_数组最大路径值](https://github.com/slientreed/Point2OfferCode/blob/master/47_Max_Values.cpp) | DP,矩阵
-7.23 | 48 | [48_最长不含重复字符的字符串](https://github.com/slientreed/Point2OfferCode/blob/master/48_LongestString_Without_Duplication.cpp) | string,动态规划；
+7.23 | 48 | [48_最长不含重复字符的字符串](https://github.com/slientreed/Point2OfferCode/blob/master/48_LongestString_Without_Duplication.cpp),[49_丑数](https://github.com/slientreed/Point2OfferCode/blob/master/49_Ugly_Number.cpp),[第一个出现一次的字符](https://github.com/slientreed/Point2OfferCode/blob/master/50_First_Not_Repeating.cpp) | string,动态规划；数组，规律；字符串，哈希表
 
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
@@ -194,6 +194,12 @@
 29. [47_找数组对应最大路径值](https://github.com/slientreed/Point2OfferCode/blob/master/47_Max_Values.cpp) - 2019.7.22
 * 动态规划的实现，相关的贪心怎么用好像忘了？ [48题也是典型的动态规划](https://github.com/slientreed/Point2OfferCode/blob/master/48_LongestString_Without_Duplication.cpp)
 * 添加了输出路径代码，感觉很啰嗦，如何优化？
+
+30. [50_第一个只出现一次的字符](https://github.com/slientreed/Point2OfferCode/blob/master/50_First_Not_Repeating.cpp)  - 2019.7.23
+* 这个对字符串遍历，而且使用了哈希表，使用数组实现了简单了，很有用
+* 同时注意数组哈希表大小是256，因为字符char是8位，256用来作为索引键值，值是出现次数
+* 判断字符是否出现，出现多少次，都可以考虑基于数组形式的哈希表。
+
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
