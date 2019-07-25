@@ -34,6 +34,7 @@
 7.22 | 47 | [47_数组最大路径值](https://github.com/slientreed/Point2OfferCode/blob/master/47_Max_Values.cpp) | DP,矩阵
 7.23 | 48,49,50 | [48_最长不含重复字符的字符串](https://github.com/slientreed/Point2OfferCode/blob/master/48_LongestString_Without_Duplication.cpp),[49_丑数](https://github.com/slientreed/Point2OfferCode/blob/master/49_Ugly_Number.cpp),[50_第一个出现一次的字符](https://github.com/slientreed/Point2OfferCode/blob/master/50_First_Not_Repeating.cpp) | string,动态规划；数组，规律；字符串，哈希表
 7.24 | 51,52 | [51_逆序对](https://github.com/slientreed/Point2OfferCode/blob/master/51_InversePairs.cpp),[52_两个链表第一个公共节点](https://github.com/slientreed/Point2OfferCode/blob/master/52_First_Common_ListNode.cpp) | 数组/向量，归并；链表，栈，树
+7.25 | 53 | [53_二分法查找各种变形](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray) | 二分查找，数组；
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
@@ -213,6 +214,11 @@
 32. [52_两个链表第一个公共节点](https://github.com/slientreed/Point2OfferCode/blob/master/52_First_Common_ListNode.cpp)  - 2019.7.24
 * 这个有多个思路，可以启发一下，同时可扩展到树的最低公共祖先，具有参考价值。
 * [多种实现参看网上这个代码](https://github.com/gatieme/CodingInterviews/tree/master/037-%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%AC%E5%85%B1%E7%BB%93%E7%82%B9)
+
+33. [53_对二分法的典型应用](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray) - 2019.7.25
+* 这三个对二分法的典型，二分法使用与排序数组，只要在排序数组中查找一个数字，可以考虑二分法，复杂度降为 O(logn).
+
+
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
