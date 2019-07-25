@@ -34,7 +34,7 @@
 7.22 | 47 | [47_数组最大路径值](https://github.com/slientreed/Point2OfferCode/blob/master/47_Max_Values.cpp) | DP,矩阵
 7.23 | 48,49,50 | [48_最长不含重复字符的字符串](https://github.com/slientreed/Point2OfferCode/blob/master/48_LongestString_Without_Duplication.cpp),[49_丑数](https://github.com/slientreed/Point2OfferCode/blob/master/49_Ugly_Number.cpp),[50_第一个出现一次的字符](https://github.com/slientreed/Point2OfferCode/blob/master/50_First_Not_Repeating.cpp) | string,动态规划；数组，规律；字符串，哈希表
 7.24 | 51,52 | [51_逆序对](https://github.com/slientreed/Point2OfferCode/blob/master/51_InversePairs.cpp),[52_两个链表第一个公共节点](https://github.com/slientreed/Point2OfferCode/blob/master/52_First_Common_ListNode.cpp) | 数组/向量，归并；链表，栈，树
-7.25 | 53 | [53_二分法查找各种变形](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray) | 二分查找，数组；
+7.25 | 53,54,55 | [53_二分法查找各种变形](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray),[54_二叉搜索树第k大个节点](https://github.com/slientreed/Point2OfferCode/blob/master/54_Kth_Node_BST.cpp), [55_判断是否平衡二叉树](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp) | 二分查找，数组；BST,中序遍历；递归，后序遍历思路
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
@@ -218,7 +218,11 @@
 33. [53_对二分法的典型应用](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray) - 2019.7.25
 * 这三个对二分法的典型，二分法使用与排序数组，只要在排序数组中查找一个数字，可以考虑二分法，复杂度降为 O(logn).
 
-
+34. [54_二叉搜索树第k大个节点](https://github.com/slientreed/Point2OfferCode/blob/master/54_Kth_Node_BST.cpp), [55_判断是否平衡二叉树](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp)   - 2019.7.25
+* 这两个题本质都是对树的遍历
+* 54题要深刻明白二叉搜索树的中序遍历是递增序列，然后就是中序遍历，同时注意找到的条件判断。[参考网上代码](https://github.com/gatieme/CodingInterviews/tree/master/063-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACK%E4%B8%AA%E7%BB%93%E7%82%B9),[原书的代码](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/54_KthNodeInBST/KthNodeInBST.cpp)有些疑惑，调试有问题。
+* 同时对树的递归仍然不是很清晰，犯迷糊。
+* 55题要继续看啊，有些迷迷糊糊的，包括传参和判断条件，对每个节点层数的保存，如何想到思路,完成实现。[参考代码](https://github.com/gatieme/CodingInterviews/tree/master/039-%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%5B%E9%99%84%E5%8A%A0%5D)
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
