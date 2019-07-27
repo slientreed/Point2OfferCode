@@ -36,7 +36,7 @@
 7.24 | 51,52 | [51_逆序对](https://github.com/slientreed/Point2OfferCode/blob/master/51_InversePairs.cpp),[52_两个链表第一个公共节点](https://github.com/slientreed/Point2OfferCode/blob/master/52_First_Common_ListNode.cpp) | 数组/向量，归并；链表，栈，树
 7.25 | 53,54,55 | [53_二分法查找各种变形](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray),[54_二叉搜索树第k大个节点](https://github.com/slientreed/Point2OfferCode/blob/master/54_Kth_Node_BST.cpp), [55_判断是否平衡二叉树](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp) | 二分查找，数组；BST,中序遍历；递归，后序遍历思路
 7.26 | 56 | [56_数组中数字出现次数](https://github.com/slientreed/Point2OfferCode/blob/master/56_1_Number_Appear_Once.cpp) | 异或运算，拆分
-7.27 | 57, | [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp) | 数组，双指针，逻辑；
+7.27 | 57,58 | [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp),[58_字符串翻转](https://github.com/slientreed/Point2OfferCode/blob/master/58_1_Reverse_Sentence.cpp) | 数组，双指针，逻辑；字符串多次翻转问题，cin，指针操作
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
@@ -234,7 +234,10 @@
 * 这两个个是典型的双指针问题
 * 第57_2的while循环逻辑注意一下。
 
-
+37. [58_字符串翻转](https://github.com/slientreed/Point2OfferCode/blob/master/58_1_Reverse_Sentence.cpp) - 2019.7.27
+* 字符串翻转问题，一般是可以考虑字符串两次翻转解法，这类字符串问题好像也是一块。使用指针解决
+* 这两个题在输入上需要改进，对于字符串指针和cin的操作还是不熟悉，这里没有解决，直接输入的。
+* 指针问题，尤其是1中ReverseChar()函数的两个指针间的变换，要注意。同时要注意边界条件和空指针问题
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
