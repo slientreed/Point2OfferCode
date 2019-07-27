@@ -36,6 +36,7 @@
 7.24 | 51,52 | [51_逆序对](https://github.com/slientreed/Point2OfferCode/blob/master/51_InversePairs.cpp),[52_两个链表第一个公共节点](https://github.com/slientreed/Point2OfferCode/blob/master/52_First_Common_ListNode.cpp) | 数组/向量，归并；链表，栈，树
 7.25 | 53,54,55 | [53_二分法查找各种变形](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray),[54_二叉搜索树第k大个节点](https://github.com/slientreed/Point2OfferCode/blob/master/54_Kth_Node_BST.cpp), [55_判断是否平衡二叉树](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp) | 二分查找，数组；BST,中序遍历；递归，后序遍历思路
 7.26 | 56 | [56_数组中数字出现次数](https://github.com/slientreed/Point2OfferCode/blob/master/56_1_Number_Appear_Once.cpp) | 异或运算，拆分
+7.27 | 57, | [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp) | 数组，双指针，逻辑；
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
@@ -228,6 +229,10 @@
 35. [56_数组中出现的次数](https://github.com/slientreed/Point2OfferCode/blob/master/56_1_Number_Appear_Once.cpp)  - 2019.7.26
 * 在找数组中只出现一次的数字，可用异或的方法，相同的数字就变为0.但是异或只能用于出现两次的数字，且查找只有重复一次的数字
 * 如果有其他情况，则想把发分拆，比如分成两个数组；或者2中累计某一位0/1的个数，进行确定。具体问题好好分析
+
+36. [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp)  - 2019.7.27
+* 这两个个是典型的双指针问题
+* 第57_2的while循环逻辑注意一下。
 
 
 
