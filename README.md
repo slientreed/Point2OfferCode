@@ -37,7 +37,6 @@
 7.25 | 53,54,55 | [53_二分法查找各种变形](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray),[54_二叉搜索树第k大个节点](https://github.com/slientreed/Point2OfferCode/blob/master/54_Kth_Node_BST.cpp), [55_判断是否平衡二叉树](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp) | 二分查找，数组；BST,中序遍历；递归，后序遍历思路
 7.26 | 56 | [56_数组中数字出现次数](https://github.com/slientreed/Point2OfferCode/blob/master/56_1_Number_Appear_Once.cpp) | 异或运算，拆分
 7.27 | 57,58 | [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp),[58_字符串翻转](https://github.com/slientreed/Point2OfferCode/blob/master/58_1_Reverse_Sentence.cpp) | 数组，双指针，逻辑；字符串多次翻转问题，cin，指针操作
-
 7.28 | 59 | [59_滑动窗口和队列的最大值](https://github.com/slientreed/Point2OfferCode/blob/master/59_1_Max_Sliding_Numbers.cpp) | 队列,分析能力，模板，向量，构造类
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
