@@ -37,7 +37,7 @@
 7.25 | 53,54,55 | [53_二分法查找各种变形](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray),[54_二叉搜索树第k大个节点](https://github.com/slientreed/Point2OfferCode/blob/master/54_Kth_Node_BST.cpp), [55_判断是否平衡二叉树](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp) | 二分查找，数组；BST,中序遍历；递归，后序遍历思路
 7.26 | 56 | [56_数组中数字出现次数](https://github.com/slientreed/Point2OfferCode/blob/master/56_1_Number_Appear_Once.cpp) | 异或运算，拆分
 7.27 | 57,58 | [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp),[58_字符串翻转](https://github.com/slientreed/Point2OfferCode/blob/master/58_1_Reverse_Sentence.cpp) | 数组，双指针，逻辑；字符串多次翻转问题，cin，指针操作
-7.28 | 59 | [59_滑动窗口和队列的最大值](https://github.com/slientreed/Point2OfferCode/blob/master/59_1_Max_Sliding_Numbers.cpp) | 队列,分析能力，模板，向量，构造类
+7.28 | 59 | [59_滑动窗口和队列的最大值](https://github.com/slientreed/Point2OfferCode/blob/master/59_1_Max_Sliding_Numbers.cpp),[60_n个骰子的点数和](https://github.com/slientreed/Point2OfferCode/blob/master/60_DisProbility.cpp),[61_扑克牌顺序](https://github.com/slientreed/Point2OfferCode/blob/master/61_Is_Continuous.cpp),[62_圆圈中剩下的数字(约瑟夫环)](https://github.com/slientreed/Point2OfferCode/blob/master/62_Cycle_Last_Number.cpp),[63_股票最大值](https://blog.csdn.net/Koala_Tree/article/details/79728591) | 队列,分析能力，模板，向量，构造类;动态规划，递归；抽象数组；list环形链表抽象，公式法；数组，DP方法
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
@@ -245,7 +245,13 @@
 * 一是判断是否比队列中元素大；二就是判断队中最大值是否已经超出窗口范围，所以用索引存储判断。[其他方法可以参考网上这个](https://github.com/gatieme/CodingInterviews/tree/master/065-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC)
 * 包括2中构造最大队的类，如何表示最大值这个逻辑要清晰，多看这个代码。[参考原书](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/59_01_MaxInSlidingWindow/MaxInSlidingWindow.cpp)
 
+40. [62_圆圈中剩下的数字(约瑟夫环)](https://github.com/slientreed/Point2OfferCode/blob/master/62_Cycle_Last_Number.cpp) - 2019.7.28
+* 这个很经典，看的很多，用个链表，模拟环形链表（每次到尾部就指向头部）. O(nm)
+* 还有种方法是用公式递推，很巧妙。O(n)
 
+41. [63_股票最大值](https://github.com/slientreed/Point2OfferCode/blob/master/63_Max_Diff.cpp) - 2019.7.28
+* 同样是经典的问题，这个简单遍历，找最小值并更新最大差值即可
+* 有多种变形，后面可用动态规划解决。[具体参考](https://blog.csdn.net/Koala_Tree/article/details/79728591)
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
