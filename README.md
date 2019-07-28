@@ -38,6 +38,8 @@
 7.26 | 56 | [56_数组中数字出现次数](https://github.com/slientreed/Point2OfferCode/blob/master/56_1_Number_Appear_Once.cpp) | 异或运算，拆分
 7.27 | 57,58 | [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp),[58_字符串翻转](https://github.com/slientreed/Point2OfferCode/blob/master/58_1_Reverse_Sentence.cpp) | 数组，双指针，逻辑；字符串多次翻转问题，cin，指针操作
 
+7.28 | 59 | [59_滑动窗口和队列的最大值](https://github.com/slientreed/Point2OfferCode/blob/master/59_1_Max_Sliding_Numbers.cpp) | 队列,分析能力，模板，向量，构造类
+
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp)
 ----------------------------
 #### --- 第2章-基础数据结构总结
@@ -238,6 +240,13 @@
 * 字符串翻转问题，一般是可以考虑字符串两次翻转解法，这类字符串问题好像也是一块。使用指针解决
 * 这两个题在输入上需要改进，对于字符串指针和cin的操作还是不熟悉，这里没有解决，直接输入的。
 * 指针问题，尤其是1中ReverseChar()函数的两个指针间的变换，要注意。同时要注意边界条件和空指针问题
+
+38. [59_滑动窗口和队列的最大值](https://github.com/slientreed/Point2OfferCode/blob/master/59_1_Max_Sliding_Numbers.cpp) - 2019.7.28
+* 这个有点难，构造队列的最大值函数，其中保持最大值那一点还是很晕；
+* 一是判断是否比队列中元素大；二就是判断队中最大值是否已经超出窗口范围，所以用索引存储判断。[其他方法可以参考网上这个](https://github.com/gatieme/CodingInterviews/tree/master/065-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC)
+* 包括2中构造最大队的类，如何表示最大值这个逻辑要清晰，多看这个代码。[参考原书](https://github.com/zhedahht/CodingInterviewChinese2/blob/master/59_01_MaxInSlidingWindow/MaxInSlidingWindow.cpp)
+
+
 
 ### 4. 相应计划
 1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
