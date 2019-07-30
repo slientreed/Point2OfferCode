@@ -5,6 +5,7 @@
 1. 个人刷剑指offer书的代码仓库，可能有错和不完善的地方，努力改进
 2. C++语言，Xcode编辑器
 3. 实现方法，测试用例可能不全面，慢慢完善
+4. 参考内容：[原书作者代码](https://github.com/zhedahht/CodingInterviewChinese2), [网上大佬整理多种方法](https://github.com/gatieme/CodingInterviews)
 
 ### 2. 进度 (计划三周 6.25 - 7.20)
 日期 | 题目 | 算法内容 | C++学习
