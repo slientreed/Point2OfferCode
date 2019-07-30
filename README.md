@@ -38,7 +38,7 @@
 7.26 | 56 | [56_数组中数字出现次数](https://github.com/slientreed/Point2OfferCode/blob/master/56_1_Number_Appear_Once.cpp) | 异或运算，拆分
 7.27 | 57,58 | [57_和为s的数字](https://github.com/slientreed/Point2OfferCode/blob/master/57_1_Find_Sum.cpp),[58_字符串翻转](https://github.com/slientreed/Point2OfferCode/blob/master/58_1_Reverse_Sentence.cpp) | 数组，双指针，逻辑；字符串多次翻转问题，cin，指针操作
 7.28 | 59,60(未懂),61,62,63 | [59_滑动窗口和队列的最大值](https://github.com/slientreed/Point2OfferCode/blob/master/59_1_Max_Sliding_Numbers.cpp),[60_n个骰子的点数和](https://github.com/slientreed/Point2OfferCode/blob/master/60_DisProbility.cpp),[61_扑克牌顺序](https://github.com/slientreed/Point2OfferCode/blob/master/61_Is_Continuous.cpp),[62_圆圈中剩下的数字(约瑟夫环)](https://github.com/slientreed/Point2OfferCode/blob/master/62_Cycle_Last_Number.cpp),[63_股票最大值](https://github.com/slientreed/Point2OfferCode/blob/master/63_Max_Diff.cpp) | 队列,分析能力，模板，向量，构造类;动态规划，递归；抽象数组；list环形链表抽象，公式法；数组，DP方法
-7.30 | 64,65,66 | [64_不用循环求1+..+n](https://github.com/slientreed/Point2OfferCode/blob/master/64_Sum_solution.cpp),[65_位运算做加法](https://github.com/slientreed/Point2OfferCode/blob/master/65_Sum_WithNoOperation.cpp), | 考察全面：递归，构造，指针；理解位运算
+7.30 | 64,65,66 | [64_不用循环求1+..+n](https://github.com/slientreed/Point2OfferCode/blob/master/64_Sum_solution.cpp),[65_位运算做加法](https://github.com/slientreed/Point2OfferCode/blob/master/65_Sum_WithNoOperation.cpp),[66_数组相乘](https://github.com/slientreed/Point2OfferCode/blob/master/66_Construct_Array.cpp) | 考察全面：递归，构造，指针；理解位运算;数组运算，逻辑
 
 ### 3. 学习总结: [链表结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/18_1_Delete_ListNode.cpp),[树的结构参考](https://github.com/slientreed/Point2OfferCode/blob/master/26_SubTree.cpp),[树的操作参考](https://github.com/slientreed/Interview_Problem_Sum/blob/master/2_Interview/01_JD_Interview_20190704/code/1_Traversal_Binary_Tre.cpp),[输入输出](https://github.com/slientreed/Point2OfferCode/blob/master/Cplusplus_Basic_Operation/2_C%2B%2B%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E7%9A%84%E5%AD%A6%E4%B9%A0.md)
 ----------------------------
@@ -219,6 +219,15 @@
 * 这个有多个思路，可以启发一下，同时可扩展到树的最低公共祖先，具有参考价值。
 * [多种实现参看网上这个代码](https://github.com/gatieme/CodingInterviews/tree/master/037-%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%AC%E5%85%B1%E7%BB%93%E7%82%B9)
 
+---------------------
+#### --- 第6章 面试的各项能力
+* 沟通能力
+* 学习能力：对新概念的衍生
+* 提问：对模糊的地方大胆提问
+* 知识迁移能力
+* 抽象建模能力：选取合理数据结构：分析内在规律，写代码
+* 发散思维能力：灵活变通，知识面广
+--------------------- 
 33. [53_对二分法的典型应用](https://github.com/slientreed/Point2OfferCode/tree/master/53_Binary_Search_OrderArray) - 2019.7.25
 * 这三个对二分法的典型，二分法使用与排序数组，只要在排序数组中查找一个数字，可以考虑二分法，复杂度降为 O(logn).
 
@@ -255,8 +264,15 @@
 * 有多种变形，后面可用动态规划解决。[具体参考](https://blog.csdn.net/Koala_Tree/article/details/79728591)
 
 42. [64_不用循环求1+..+n](https://github.com/slientreed/Point2OfferCode/blob/master/64_Sum_solution.cpp),[65_位运算做加法](https://github.com/slientreed/Point2OfferCode/blob/master/65_Sum_WithNoOperation.cpp)  - 2017.7.30
-* 发散题目，对C++基础，以及多种计算机基础进行考察，64中包括递归，构造函数，指针，位运算
+* 发散题目，对C++基础，以及多种计算机基础进行考察，64中包括递归，构造函数，指针，位运算。[64题其他参考解法](https://github.com/gatieme/CodingInterviews/tree/master/046-%E6%B1%821%2B2%2B3%2B...%2Bn)
 * 64题是对位运算，位移的典型应用解法，很优美巧妙。
 
-### 4. 相应计划
-1. 对高级数据结构和算法还需要系统的学习。《数据结构和算法分析》
+----
+### 4.结语
+1. 6.25-7.30,虽然比计划多用了十天，但还是跌跌撞撞刷完了。每本书看完都有中莫名的成就感，感觉自己马上提高一大截，然而结果和想的总是不一致哈哈哈。
+2. 刷的过程中发现有几点需要加强：
+* 对C++基础，以及很多细节还不熟练；（多看，多写）
+* 同时对高级数据结构并没掌握；（选一本资料继续全面深入）
+* 对于贪心，回溯这样的算法也并不能灵活应用；（多刷题）
+3. 重点二刷题目：[36](https://github.com/slientreed/Point2OfferCode/blob/master/36_Tree_Convert_List.cpp),[37](https://github.com/slientreed/Point2OfferCode/blob/master/37_Serialize_Tree.cpp),[38](https://github.com/slientreed/Point2OfferCode/blob/master/38_string_Permutation.cpp),[41](https://github.com/slientreed/Point2OfferCode/blob/master/41_Greatest_Sum_SubArray.cpp),[43](https://github.com/slientreed/Point2OfferCode/blob/master/43_Numbers_Of_1.cpp),[45](https://github.com/slientreed/Point2OfferCode/blob/master/45_Sort_Array_MinNumber.cpp),[50](https://github.com/slientreed/Point2OfferCode/blob/master/50_First_Not_Repeating.cpp),[51](https://github.com/slientreed/Point2OfferCode/blob/master/51_InversePairs.cpp),[55](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp),**[60](https://github.com/slientreed/Point2OfferCode/blob/master/60_DisProbility.cpp)**,[63](https://github.com/slientreed/Point2OfferCode/blob/master/63_Max_Diff.cpp),[64](https://github.com/slientreed/Point2OfferCode/blob/master/64_Sum_solution.cpp)
+4. 所以还有很多要提高和努力的地方啊，路漫漫其修远兮！[这里附上一篇大佬的学习过程，共勉](http://lucida.me/blog/on-learning-algorithms/)
