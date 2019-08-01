@@ -273,7 +273,7 @@
 1. 6.25-7.30,虽然比计划多用了十天，但还是跌跌撞撞刷完了。每本书看完都有中莫名的成就感，感觉自己马上提高一大截，然而结果和想的总是不一致哈哈哈。
 2. 刷的过程中发现有几点需要加强：
 * 对C++基础，以及很多细节还不熟练；（多看，多写）
-* 同时对高级数据结构并没掌握；（选一本资料继续全面深入）
+* 同时对高级数据结构并没掌握；（[选一本数据结构和算法分析继续全面深入](https://github.com/slientreed/DataStructures_AlgorithmAnalysis_C/blob/master/README.md)）
 * 对于贪心，回溯这样的算法也并不能灵活应用；（多刷题）
 3. 重点二刷题目：[36](https://github.com/slientreed/Point2OfferCode/blob/master/36_Tree_Convert_List.cpp),[37](https://github.com/slientreed/Point2OfferCode/blob/master/37_Serialize_Tree.cpp),[38](https://github.com/slientreed/Point2OfferCode/blob/master/38_string_Permutation.cpp),[41](https://github.com/slientreed/Point2OfferCode/blob/master/41_Greatest_Sum_SubArray.cpp),[43](https://github.com/slientreed/Point2OfferCode/blob/master/43_Numbers_Of_1.cpp),[45](https://github.com/slientreed/Point2OfferCode/blob/master/45_Sort_Array_MinNumber.cpp),[50](https://github.com/slientreed/Point2OfferCode/blob/master/50_First_Not_Repeating.cpp),[51](https://github.com/slientreed/Point2OfferCode/blob/master/51_InversePairs.cpp),[55](https://github.com/slientreed/Point2OfferCode/blob/master/55_2_Balance_Tree.cpp),**[60](https://github.com/slientreed/Point2OfferCode/blob/master/60_DisProbility.cpp)**,[63](https://github.com/slientreed/Point2OfferCode/blob/master/63_Max_Diff.cpp),[64](https://github.com/slientreed/Point2OfferCode/blob/master/64_Sum_solution.cpp)
 4. 所以还有很多要提高和努力的地方啊，路漫漫其修远兮！[这里附上一篇大佬的学习过程，共勉](http://lucida.me/blog/on-learning-algorithms/)
