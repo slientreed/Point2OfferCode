@@ -54,6 +54,7 @@ bool Increment(char* num)
         else
         {
             num[i] = '0' + sum;    // 不会产生进位，直接加1赋值原来位即可
+            break;                 // 直接退出循环，打印
         }
     }
     
